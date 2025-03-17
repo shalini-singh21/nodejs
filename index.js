@@ -1,4 +1,4 @@
-creating server
+//creating server
 const http = require('http');
 http.createServer((Request, Response) => {
     Response.writeHead(200, { "content-type": 'application\json' }); //to define status code 
